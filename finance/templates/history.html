@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+
+        <tr>
+            <th>  <u>Username</u>  </th>
+            <th>  <u>Stock Quote</u>  </th>
+            <th>  <u>Act</u>  </th>
+            <th>  <u>Date</u>  </th>
+            <th>  <u>Time</u>  </th>
+            <th>  <u>Amount</u>  </th>
+        </tr>
+
+        {% for row in info %}
+        <tr>
+            <td>  {{ row['user_id'] }}  </td>
+            <td>  {{ row['stock_quote'] }}  </td>
+            <td>  {{ row['act'] }}  </td>
+            <td>  {{ row['date'] }}  </td>
+            <td>  {{ row['time'] }}  </td>
+            <td>  {{ row['amount'] }}  </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+{% endblock %}

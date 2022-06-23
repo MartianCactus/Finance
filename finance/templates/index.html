@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+
+        <tr>
+            <th>  <u>Stock</u>  </th>
+            <th>  <u>Amount</u>  </th>
+            <th>  <u>Current price</u>  </th>
+            <th>  <u>Holding</u>  </th>
+        </tr>
+
+        {% for stock in own %}
+        <tr>
+            <td>  {{ stock['stock_quote'] }}  </td>
+            <td>  {{ stock['amount'] }}  </td>
+            <td>  $ {{ stock['price'] }}  </td>
+            <td>  <strong> $ {{ "{0:0.2f}".format(stock['price'] * stock['amount']) }} </strong>  </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+
+          </div>
+          <div class="col-sm">
+            <p id="cash"><b> Cash: </b> {{ cash }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+
+          </div>
+          <div class="col-sm">
+            <p id="cash"><b> Total Valuation: </b> {{ total }}</p>
+          </div>
+        </div>
+      </div>
+
+{% endblock %}
