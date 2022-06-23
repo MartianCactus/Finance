@@ -51,11 +51,11 @@ https://user-images.githubusercontent.com/74310604/175313553-d0b70518-9fca-44b8-
 
 https://user-images.githubusercontent.com/74310604/175313597-d31a0ec6-c56f-4ed9-a5bb-48a8b60e69ee.mp4
 
+https://user-images.githubusercontent.com/74310604/175313617-1062c281-2f9c-4d30-9977-dd87defa04c1.mp4
 
 ### Index Page showing all Information about current holdings:
 
-
-https://user-images.githubusercontent.com/74310604/175313617-1062c281-2f9c-4d30-9977-dd87defa04c1.mp4
+![image](https://user-images.githubusercontent.com/74310604/175314545-3a220a97-862f-4b39-a22b-bc7fe5b2041b.png)
 
 
 ## Here is a look at the SQL database of this project:
