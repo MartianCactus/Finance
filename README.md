@@ -2,9 +2,9 @@
 Project that has been constructed by me as part of the completion of the final problem set in CS50. It is a functioning stock trading website with real-time stock information and capabilities to buy, sell, quote and check activity history. I have uploaded it to github to link into my resume.
 
 
-##This project supports actions such as:
+## This project supports actions such as:
 
-###Registering:
+### Registering:
 
 https://user-images.githubusercontent.com/74310604/175312764-4529a3e6-0227-4645-ba3b-0e0bf6c4ca41.mp4
 
